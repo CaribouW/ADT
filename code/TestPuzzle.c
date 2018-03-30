@@ -41,7 +41,7 @@ int main()
 			}
 		}
 
-		generate(1,1);
+		GoAhead(1, 1, rand() % 4 + 1);
 
 		for (i = 0; i<x1; i++)
 		{
