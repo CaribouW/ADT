@@ -75,6 +75,9 @@
     <ClCompile Include="PopSequence.cpp">
       <Filter>Source Files\home-work</Filter>
     </ClCompile>
+    <ClCompile Include="TreeIsomorphism.cpp">
+      <Filter>Source Files\home-work</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h">

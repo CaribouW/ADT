@@ -91,6 +91,7 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="Set.cpp" />
     <ClCompile Include="Sibling.cpp" />
+    <ClCompile Include="TreeIsomorphism.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ALU.h" />
