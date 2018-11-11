@@ -1,0 +1,6 @@
+#include"AVL_tree.h"
+#include"BST.h"
+#include"HashTable.h"
+#include"Sibling.h"
+#include"Set.h"
+#include"Dic.h"

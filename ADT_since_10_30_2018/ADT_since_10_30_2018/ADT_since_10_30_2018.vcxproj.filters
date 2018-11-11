@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\graph">
+      <UniqueIdentifier>{e12cbcd6-cfdc-4543-9a2d-bcfc6d65153a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nomal">
+      <UniqueIdentifier>{13f24864-ea1c-4d23-83fa-2cb72467cb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graph">
+      <UniqueIdentifier>{0e6d8ddb-7bb2-487f-996c-dbba11063257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nomal">
+      <UniqueIdentifier>{be98fb08-641c-4975-92b5-546f776a6050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\home-work">
+      <UniqueIdentifier>{9c50b9a9-6755-4afc-bef1-800c6786d9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ICS">
+      <UniqueIdentifier>{59a82b25-8a9a-4848-b1b8-54ba02e335d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ICS">
+      <UniqueIdentifier>{8c2b93c8-0e5d-4668-8ad2-69f87a6fe4e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sibling.cpp">
+      <Filter>Source Files\nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Source Files\nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="Dic.cpp">
+      <Filter>Source Files\nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>Source Files\nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSubsequence.cpp">
+      <Filter>Source Files\home-work</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly.cpp">
+      <Filter>Source Files\home-work</Filter>
+    </ClCompile>
+    <ClCompile Include="ALU.cpp">
+      <Filter>Source Files\ICS</Filter>
+    </ClCompile>
+    <ClCompile Include="cache.cpp">
+      <Filter>Source Files\ICS</Filter>
+    </ClCompile>
+    <ClCompile Include="errorCode.cpp">
+      <Filter>Source Files\ICS</Filter>
+    </ClCompile>
+    <ClCompile Include="fpu.cpp">
+      <Filter>Source Files\ICS</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseLinkedList.cpp">
+      <Filter>Source Files\home-work</Filter>
+    </ClCompile>
+    <ClCompile Include="PopSequence.cpp">
+      <Filter>Source Files\home-work</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AVL_tree.h">
+      <Filter>Header Files\nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <Filter>Header Files\nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Header Files\nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="Sibling.h">
+      <Filter>Header Files\nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="laucher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Header Files\nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="Dic.h">
+      <Filter>Header Files\nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="ALU.h">
+      <Filter>Header Files\ICS</Filter>
+    </ClInclude>
+    <ClInclude Include="fpu.h">
+      <Filter>Header Files\ICS</Filter>
+    </ClInclude>
+    <ClInclude Include="errorCode.h">
+      <Filter>Header Files\ICS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
