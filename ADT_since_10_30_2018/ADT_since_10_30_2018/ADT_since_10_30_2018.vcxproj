@@ -91,7 +91,9 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="Set.cpp" />
     <ClCompile Include="Sibling.cpp" />
+    <ClCompile Include="graph.cpp" />
     <ClCompile Include="TreeIsomorphism.cpp" />
+    <ClCompile Include="TreeTranversalAgain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ALU.h" />
@@ -101,6 +103,7 @@
     <ClInclude Include="Dic.h" />
     <ClInclude Include="errorCode.h" />
     <ClInclude Include="fpu.h" />
+    <ClInclude Include="graph.h" />
     <ClInclude Include="HashTable.h" />
     <ClInclude Include="laucher.h" />
     <ClInclude Include="Set.h" />

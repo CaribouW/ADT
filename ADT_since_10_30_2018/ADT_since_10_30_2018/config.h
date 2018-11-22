@@ -4,3 +4,4 @@
 #include"Sibling.h"
 #include"Set.h"
 #include"Dic.h"
+#include"graph.h"

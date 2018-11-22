@@ -1,8 +1,11 @@
-﻿Build started 2018/11/11 16:40:07.
+﻿Build started 2018/11/20 16:27:14.
      1>Project "F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\ADT_since_10_30_2018\ADT_since_10_30_2018.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\VS 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PopSequence.cpp
-         PopSequence.cpp
+         D:\VS 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt fpu.cpp
+         fpu.cpp
+     1>f:\java文件\adt\adt\adt_since_10_30_2018\adt_since_10_30_2018\fpu.cpp(91): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>f:\java文件\adt\adt\adt_since_10_30_2018\adt_since_10_30_2018\fpu.cpp(94): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>f:\java文件\adt\adt\adt_since_10_30_2018\adt_since_10_30_2018\fpu.cpp(95): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
        Link:
          D:\VS 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\Debug\ADT_since_10_30_2018.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\Debug\ADT_since_10_30_2018.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\Debug\ADT_since_10_30_2018.lib" /MACHINE:X86 Debug\ALU.obj
          Debug\cache.obj
@@ -17,9 +20,11 @@
          Debug\ReverseLinkedList.obj
          Debug\Set.obj
          Debug\Sibling.obj
+         Debug\TreeIsomorphism.obj
+         Debug\TreeTranversalAgain.obj
          ADT_since_10_30_2018.vcxproj -> F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\Debug\ADT_since_10_30_2018.exe
      1>Done Building Project "F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\ADT_since_10_30_2018\ADT_since_10_30_2018.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.62
+Time Elapsed 00:00:00.84

@@ -78,6 +78,12 @@
     <ClCompile Include="TreeIsomorphism.cpp">
       <Filter>Source Files\home-work</Filter>
     </ClCompile>
+    <ClCompile Include="TreeTranversalAgain.cpp">
+      <Filter>Source Files\home-work</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h">
@@ -112,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="errorCode.h">
       <Filter>Header Files\ICS</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>Header Files\graph</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,5 @@
 #include<iostream>
 #include<cassert>
-#define tree_isomorphism
 #ifdef tree_isomorphism
 
 /*
@@ -26,15 +25,15 @@ E 2 -
 */
 
 
-struct TreeNode{
+struct node{
 	char ch;
 	int leftIndex, rightIndex;
-	TreeNode(char ch, int leftIndex, int  rightIndex){
+	node(char ch, int leftIndex, int  rightIndex){
 		this->ch = ch;
 		this->leftIndex = leftIndex;
 		this->rightIndex = rightIndex;
 	}
-	TreeNode();
+	node();
 };
 int fetchIndex(char ch){
 	if (ch == '-')
@@ -43,32 +42,30 @@ int fetchIndex(char ch){
 		return ch - '0';
 }
 
+node& buildTree(){
+	using namespace std;
+	int nodeVal;
+	cin >> nodeVal;
+	node* nodes = new node[nodeVal];
+	int* check = new int[nodeVal];
+	for (int i = 0; i < nodeVal; i++){
+		char ch;
+		char leftCh, rightCh;
+		int leftIndex, rightIndex;
+		cin >> ch; cin.get();
+		cin >> leftCh; cin.get();
+		cin >> rightCh;
+		leftIndex = fetchIndex(leftCh);
+		rightIndex = fetchIndex(rightCh);
+		nodes[i] = node(ch, leftIndex, rightIndex);
+	}
+	return *nodes;
+}
 
 void solve(){
 	using namespace std;
-	int nodeVal;
-	for (int k = 0; k < 2; k++){
-		cin >> nodeVal;
-		TreeNode* nodes = new TreeNode[nodeVal];
-		int* check = new int[nodeVal];
-		for (int i = 0; i < nodeVal; i++){
-			char ch;
-			char leftCh, rightCh;
-			int leftIndex, rightIndex;
-			cin >> ch;cin.get();
-			cin >> leftCh;cin.get();
-			cin >> rightCh;
-			leftIndex = fetchIndex(leftCh);
-			rightIndex = fetchIndex(rightCh);
-			nodes[i] = TreeNode(ch, leftIndex, rightIndex);
-		}
-		delete[] nodes;
-		delete[] check;
-	}
-	
-
-
-
+	node tree_a = buildTree();
+	node tree_b = buildTree();
 	
 }
 
