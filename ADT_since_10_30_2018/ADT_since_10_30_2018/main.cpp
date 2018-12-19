@@ -1,7 +1,5 @@
-#include"config.h"
-#include"fpu.h"
-extern void solve();
-
+#include<iostream>
 int main(){
-	cin.get();
+
+	std::cin.get();
 }

@@ -1,0 +1,31 @@
+﻿Build started 2018/11/29 11:09:27.
+     1>Project "F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\ADT_since_10_30_2018\ADT_since_10_30_2018.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ALU.cpp cache.cpp Dic.cpp errorCode.cpp fpu.cpp graph_alg.cpp HashTable.cpp main.cpp MaxSubsequence.cpp Poly.cpp PopSequence.cpp ReverseLinkedList.cpp Set.cpp Sibling.cpp graph.cpp TreeIsomorphism.cpp TreeTranversalAgain.cpp
+         ALU.cpp
+     1>ALU.cpp(16): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+         cache.cpp
+         Dic.cpp
+         errorCode.cpp
+     1>f:\java文件\adt\adt\adt_since_10_30_2018\adt_since_10_30_2018\errorCode.h(71): warning C4101: 'i' : unreferenced local variable
+     1>errorCode.cpp(81): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         fpu.cpp
+     1>fpu.cpp(59): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+         graph_alg.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h(147): fatal error C1189: #error :  "No Target Architecture"
+         HashTable.cpp
+         main.cpp
+         MaxSubsequence.cpp
+         Poly.cpp
+         PopSequence.cpp
+         ReverseLinkedList.cpp
+         Set.cpp
+         Sibling.cpp
+         graph.cpp
+         TreeIsomorphism.cpp
+         TreeTranversalAgain.cpp
+     1>Done Building Project "F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\ADT_since_10_30_2018\ADT_since_10_30_2018.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.84

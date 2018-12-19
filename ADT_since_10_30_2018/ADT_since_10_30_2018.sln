@@ -7,12 +7,19 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ADT_since_10_30_2018", "ADT
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
 		Debug|Win32 = Debug|Win32
+		Release|ARM = Release|ARM
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Debug|Win32.Build.0 = Debug|Win32
+		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Debug|ARM.ActiveCfg = Release|Win32
+		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Debug|ARM.Build.0 = Release|Win32
+		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Debug|ARM.Deploy.0 = Debug|Win32
+		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Debug|Win32.ActiveCfg = Release|Win32
+		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Debug|Win32.Build.0 = Release|Win32
+		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Release|ARM.ActiveCfg = Release|Win32
+		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Release|ARM.Build.0 = Release|Win32
 		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Release|Win32.ActiveCfg = Release|Win32
 		{9C71E31A-D1F0-417A-A1FF-9961AAA21A0D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection

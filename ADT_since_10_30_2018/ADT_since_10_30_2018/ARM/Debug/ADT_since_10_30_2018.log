@@ -1,0 +1,8 @@
+﻿Build started 2018/11/29 11:08:56.
+     1>Project "F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\ADT_since_10_30_2018\ADT_since_10_30_2018.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\ARM\PlatformToolsets\v120\Toolset.targets(36,5): error MSB8022: Compiling Desktop applications for the ARM platform is not supported.
+     1>Done Building Project "F:\JAVA文件\ADT\ADT\ADT_since_10_30_2018\ADT_since_10_30_2018\ADT_since_10_30_2018.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.01

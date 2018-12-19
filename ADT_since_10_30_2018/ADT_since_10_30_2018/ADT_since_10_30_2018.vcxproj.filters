@@ -84,6 +84,9 @@
     <ClCompile Include="graph.cpp">
       <Filter>Source Files\graph</Filter>
     </ClCompile>
+    <ClCompile Include="graph_alg.cpp">
+      <Filter>Source Files\graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h">
@@ -121,6 +124,9 @@
     </ClInclude>
     <ClInclude Include="graph.h">
       <Filter>Header Files\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.h">
+      <Filter>Header Files\ICS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

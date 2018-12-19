@@ -47,8 +47,8 @@ int32_t imul(int32_t X, int32_t Y, uint8_t data_size){
 		}
 		Y0 = Y1;
 		uint8_t sign = get_sign(reg, data_size * 2);
-		reg = (get_lower(reg, data_size * 2)) >> 1;
-		if (sign == 1)             //Algrithom shift.
+		reg = (get_lower(reg, data_size * 2)) >> 1;//shift right
+		if (sign == 1)             //Algrithom shift. we put the bit move in to be 1
 			reg |= 1 << (data_size * 2 - 1);
 		Y = get_lower(reg, data_size);
 	}
@@ -56,7 +56,7 @@ int32_t imul(int32_t X, int32_t Y, uint8_t data_size){
 	if (sign){
 		if (data_size == 16)
 			return reg;
-		else
+		else//put to the whole reg to be neg
 			return reg | (0xFFFFFFFF << (data_size * 2));
 	}
 	else
@@ -111,7 +111,7 @@ int32_t div(int32_t X, int32_t Y, uint8_t data_size){
 	//£¨²»»Ö¸´ÓàÊý³ý·¨£©
 	//Not add back
 	//reg = reg - (divisor << data_size);
-	reg = reg - (divisor << data_size);
+	reg = reg - (divisor << data_size); //subtract first
 	for (int8_t counter = 0; counter <= data_size; counter++){
 		//Rest = get_lower(reg >> data_size, data_size);
 		int sign = get_sign(reg, data_size * 2);
