@@ -92,6 +92,11 @@
     <ClCompile Include="shortest_path.cpp" />
     <ClCompile Include="Topological.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="HTMLPage.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
